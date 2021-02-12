@@ -3,8 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '>= 2.6'
 
-gem 'u-case', '~> 2.3', require: 'u-case/with_validation'
-gem 'type_validator', '~> 1.0'
+gem 'u-case', require: 'u-case/with_activemodel_validation'
+gem 'type_validator'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.1'
